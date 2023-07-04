@@ -104,7 +104,7 @@ const PlayerContent: React.FC<PlayerContentProps> = ({ song, songUrl }) => {
                 "
             >
                 <div className="flex items-center gap-x-4">
-                    <MediaItem data={song} />
+                    <MediaItem onClick={() => {}} data={song} />
                     <LikeButton songId={song.id} />
                 </div>
             </div>
